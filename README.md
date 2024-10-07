@@ -3,7 +3,7 @@
 ## 1.1.1
 
 ### Wie kann diese Kommunikationsverbindung nun dennoch mit Hilfe einer zusätzlichen „Fabrik“-Klasse, welche die dazu notwendige Objekt-Erzeugung übernimmt, aufgebaut werden?
-Siehe Code 
+Siehe Code unter https://github.com/Mirco1702/SE1Uebung1/tree/main/SE1/src/exercises/uebung1
 
 ### In welchem Package sollte diese zusätzliche Klasse liegen?
 In Control, siehe Code
