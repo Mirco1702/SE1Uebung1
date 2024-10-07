@@ -6,7 +6,7 @@
 Siehe Code unter https://github.com/Mirco1702/SE1Uebung1/tree/main/SE1/src/exercises/uebung1
 
 ### In welchem Package sollte diese zusätzliche Klasse liegen?
-In Control, siehe Code
+In Control, siehe Code unter https://github.com/Mirco1702/SE1Uebung1/tree/main/SE1/src/exercises/uebung1/control
 
 ### Welches Entwurfsmuster (engl.: design pattern) könnte für die Problematik der Objekt-Erzeugung verwendet werden? Was ist der software-technische Nutzen bei der Verwendung des Entwurfsmusters?
 Das Factory Method Pattern ermöglicht es, neue Translator-Implementierungen hinzuzufügen, ohne den Code des Clients anpassen zu müssen. Alternativ könnte man das Konzept auch durch ein Factory-Interface umsetzen. Dadurch kann bereits bei der Erstellung des Client-Objekts entschieden werden, welche Factory-Implementierung verwendet wird, wie z.B. eine GermanTranslatorFactory oder MagyarTranslatorFactory. In diesem Fall wäre es nicht nötig, die Methode im Client bei einer Erweiterung anzupassen, da das Factory-Interface die Methode createTranslator() vorschreibt. Jede neue Implementierung würde somit diese Methode enthalten.
